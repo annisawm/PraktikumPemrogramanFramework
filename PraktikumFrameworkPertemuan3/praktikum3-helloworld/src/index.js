@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import HelloComponent from './components/HelloComponent';
+import Login from './components/Login';
 import Test from './Test';
 
 
@@ -30,7 +31,7 @@ import Test from './Test';
 // ReactDOM.render(<HelloComponent />, document.getElementById('root'));
 
 // App Food Image
-ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<App />, document.getElementById('root'));
 
 // Geek Codingan
 // ReactDOM.render(<Test />, document.getElementById('root')); 
@@ -39,7 +40,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // ReactDOM.render(<HelloComponent />, document.getElementById('root')); 
 
 // Form Login
-// ReactDOM.render(<LoginComponent />, document.getElementById('root')); 
+ReactDOM.render(<Login />, document.getElementById('root')); 
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
