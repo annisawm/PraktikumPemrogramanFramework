@@ -1,0 +1,74 @@
+{
+  "produk": [
+    {
+      "id": 1,
+      "nama": "Turbo Setrika Listrik EHL3038",
+      "harga": 150000,
+      "stok": 20,
+      "gambar": "./images/img1.jpg"
+    },
+    {
+      "id": 2,
+      "nama": "Maspion Setrika Listrik HA-110",
+      "harga": 125000,
+      "stok": 25,
+      "gambar": "./images/img2.jpg"
+    },
+    {
+      "id": 3,
+      "nama": "Tefal Dry Iron Classic FS2930",
+      "harga": 235000,
+      "stok": 20,
+      "gambar": "./images/img3.jpg"
+    },
+    {
+      "id": 4,
+      "nama": "Miyako Setrika Listrik El-1008 M",
+      "harga": 95000,
+      "stok": 19,
+      "gambar": "./images/img4.jpg"
+    },
+    {
+      "id": 5,
+      "nama": "Philips Setrika Listrik Ceramic HD1173",
+      "harga": 300000,
+      "stok": 25,
+      "gambar": "./images/img5.jpg"
+    },
+    {
+      "id": 6,
+      "nama": "Hetian Travel Steam Iron",
+      "harga": 125000,
+      "stok": 20,
+      "gambar": "./images/img6.jpg"
+    },
+    {
+      "id": 7,
+      "nama": "Steam Iron Ni-P Series",
+      "harga": 450000,
+      "stok": 25,
+      "gambar": "./images/img7.jpg"
+    },
+    {
+      "id": 8,
+      "nama": "Xiaomi Cordless Iron Steam",
+      "harga": 350000,
+      "stok": 20,
+      "gambar": "./images/img8.jpg"
+    },
+    {
+      "id": 9,
+      "nama": "Philips Cordless Steam Iron",
+      "harga": 999000,
+      "stok": 25,
+      "gambar": "./images/img9.jpg"
+    },
+    {
+      "id": 10,
+      "nama": "Deerma Iron Steamers",
+      "harga": 999000,
+      "stok": 3,
+      "gambar": "./images/img10.jpg"
+    }
+  ]
+}

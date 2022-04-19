@@ -1,0 +1,20 @@
+{
+  "keranjang": [
+    {
+      "id": 1,
+      "idProduk": 1,
+      "nama": "Turbo Setrika Listrik EHL3038",
+      "harga": 150000,
+      "qty": 2,
+      "subTotal": 300000
+    },
+    {
+      "id": 2,
+      "idProduk": 3,
+      "nama": "Tefal Dry Iron Classic FS2930",
+      "harga": 235000,
+      "qty": 1,
+      "subTotal": 235000
+    }
+  ]
+}
