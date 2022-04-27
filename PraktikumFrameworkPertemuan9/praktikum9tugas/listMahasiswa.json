@@ -1,0 +1,48 @@
+{
+  "mahasiswa": [
+    {
+      "id": 1941720146,
+      "nama": "Annisa Wahyu Maulida",
+      "hp": "08881234567",
+      "angkatan": "2019",
+      "status": "Aktif",
+      "alamat": "Situbondo",
+      "NIM": "1941720146"
+    },
+    {
+      "id": 1941720147,
+      "nama": "Olivia Aziizi Darmansyah",
+      "hp": "08881234568",
+      "angkatan": "2019",
+      "status": "Aktif",
+      "alamat": "Bandung",
+      "NIM": "1941720147"
+    },
+    {
+      "id": 1941720148,
+      "nama": "Syafirah Alqonita",
+      "hp": "08881234569",
+      "angkatan": "2019",
+      "status": "Aktif",
+      "alamat": "Bandung",
+      "NIM": "1941720148"
+    },
+    {
+      "id": 1941720149,
+      "nama": "Jasmine Izzah",
+      "hp": "08881234570",
+      "angkatan": "2019",
+      "status": "Aktif",
+      "alamat": "Bandung",
+      "NIM": "1941720149"
+    },
+    {
+      "id": "1941720152",
+      "nama": "Jane",
+      "hp": "08881234560",
+      "angkatan": "2019",
+      "status": "Lulus",
+      "alamat": "Jakarta"
+    }
+  ]
+}
