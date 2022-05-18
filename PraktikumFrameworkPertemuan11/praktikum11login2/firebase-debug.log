@@ -1,0 +1,32 @@
+[debug] [2022-05-18T01:30:20.453Z] ----------------------------------------------------------------------
+[debug] [2022-05-18T01:30:20.454Z] Command:       D:\nodejs\node.exe C:\Users\Awe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-05-18T01:30:20.454Z] CLI Version:   10.9.2
+[debug] [2022-05-18T01:30:20.455Z] Platform:      win32
+[debug] [2022-05-18T01:30:20.455Z] Node Version:  v14.15.4
+[debug] [2022-05-18T01:30:20.455Z] Time:          Wed May 18 2022 08:30:20 GMT+0700 (Western Indonesia Time)
+[debug] [2022-05-18T01:30:20.455Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-18T01:30:20.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-18T01:30:20.516Z] > authorizing via signed-in user (princess.nisalova@gmail.com)
+[debug] [2022-05-18T01:30:20.516Z] [iam] checking project praktikum11-14c89 for permissions ["firebase.projects.get"]
+[debug] [2022-05-18T01:30:20.518Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/praktikum11-14c89:testIamPermissions [none]
+[debug] [2022-05-18T01:30:20.518Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/praktikum11-14c89:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-18T01:30:21.617Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/praktikum11-14c89:testIamPermissions 200
+[debug] [2022-05-18T01:30:21.617Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/praktikum11-14c89:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-18T01:30:21.619Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/praktikum11-14c89 [none]
+[debug] [2022-05-18T01:30:22.009Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/praktikum11-14c89 200
+[debug] [2022-05-18T01:30:22.009Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/praktikum11-14c89 {"projectId":"praktikum11-14c89","projectNumber":"402132181114","displayName":"praktikum11","name":"projects/praktikum11-14c89","resources":{"hostingSite":"praktikum11-14c89","storageBucket":"praktikum11-14c89.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'D:\APP\react\praktikum11login2'...
+[info] 
+[debug] [2022-05-18T01:30:22.011Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/praktikum11-14c89/sites 
+[debug] [2022-05-18T01:30:23.532Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/praktikum11-14c89/sites 200
+[debug] [2022-05-18T01:30:23.532Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/praktikum11-14c89/sites {"sites":[{"name":"projects/praktikum11-14c89/sites/praktikum11-14c89","defaultUrl":"https://praktikum11-14c89.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-18T01:30:23.533Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/praktikum11-14c89/webApps/-/config [none]
+[debug] [2022-05-18T01:30:24.274Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/praktikum11-14c89/webApps/-/config 200
+[debug] [2022-05-18T01:30:24.275Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/praktikum11-14c89/webApps/-/config {"projectId":"praktikum11-14c89","storageBucket":"praktikum11-14c89.appspot.com","locationId":"us-central","apiKey":"AIzaSyBdgvIFz3Thh-NmRS0PccIP5afhvpG0J-M","authDomain":"praktikum11-14c89.firebaseapp.com","messagingSenderId":"402132181114"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [18/May/2022:01:30:28 +0000] "GET / HTTP/1.1" 200 1721 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [18/May/2022:01:30:28 +0000] \"GET / HTTP/1.1\" 200 1721 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [18/May/2022:01:30:28 +0000] "GET /%PUBLIC_URL%/favicon.ico HTTP/1.1" 500 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [18/May/2022:01:30:28 +0000] \"GET /%PUBLIC_URL%/favicon.ico HTTP/1.1\" 500 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [18/May/2022:01:30:28 +0000] "GET /%PUBLIC_URL%/manifest.json HTTP/1.1" 500 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [18/May/2022:01:30:28 +0000] \"GET /%PUBLIC_URL%/manifest.json HTTP/1.1\" 500 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36\""}}
